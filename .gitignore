@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 环境变量（禁止提交，见方案第 13 章密钥管理）
+.env
+.env.local
+
+# 测试与缓存
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 构建产物
+build/
+dist/
+artifacts/
+
+# 本地数据（项目库、回收站、SQLite 任务库）
+backend/data/
+
+# 前端依赖（体积 150MB+，用 npm install 还原）
+node_modules/
+
+# 截图与无头浏览器 profile（本地调试产物）
+.shots/
+
+# TypeScript 增量编译缓存
+*.tsbuildinfo
+
+# 日志
+*.log
+
+# 开发期临时片段（模板拆分时留下的中间文件）
+backend/_frag_*.txt
+backend/_tpl_new.py
