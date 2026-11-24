@@ -378,3 +378,15 @@ cd backend && python -m pytest -q      # 164 passed
 | PUT | `/api/settings/llm` | 运行时切换模型与思考强度 |
 
 </details>
+
+---
+
+## 许可
+
+采用 [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0)。
+
+**可以**：阅读、学习、修改，用于个人项目或非商业场景（教学、研究、公益与政府机构）。
+
+**不可以**：任何商业用途——包括销售本软件或其衍生品、集成进付费产品或服务、用于对外提供收费服务。
+
+如需商业授权，请通过仓库 Issue 联系作者。
